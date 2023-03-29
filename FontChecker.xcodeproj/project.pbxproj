@@ -11,6 +11,8 @@
 		0E50299129D3987E00731CE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50299029D3987E00731CE7 /* ContentView.swift */; };
 		0E50299329D3987F00731CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E50299229D3987F00731CE7 /* Assets.xcassets */; };
 		0E50299629D3987F00731CE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E50299529D3987F00731CE7 /* Preview Assets.xcassets */; };
+		0E50299E29D3989900731CE7 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50299D29D3989900731CE7 /* FontManager.swift */; };
+		0E5029A029D3996A00731CE7 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50299F29D3996A00731CE7 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0E50299229D3987F00731CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E50299529D3987F00731CE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E50299729D3987F00731CE7 /* FontChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontChecker.entitlements; sourceTree = "<group>"; };
+		0E50299D29D3989900731CE7 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		0E50299F29D3996A00731CE7 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				0E50298E29D3987E00731CE7 /* FontCheckerApp.swift */,
 				0E50299029D3987E00731CE7 /* ContentView.swift */,
+				0E50299D29D3989900731CE7 /* FontManager.swift */,
+				0E50299F29D3996A00731CE7 /* AppError.swift */,
 				0E50299229D3987F00731CE7 /* Assets.xcassets */,
 				0E50299729D3987F00731CE7 /* FontChecker.entitlements */,
 				0E50299429D3987F00731CE7 /* Preview Content */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5029A029D3996A00731CE7 /* AppError.swift in Sources */,
 				0E50299129D3987E00731CE7 /* ContentView.swift in Sources */,
+				0E50299E29D3989900731CE7 /* FontManager.swift in Sources */,
 				0E50298F29D3987E00731CE7 /* FontCheckerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
